@@ -105,3 +105,17 @@ From this review:
 5. Approve the blocking fixes B1 to B6 as described?
 6. Approve adding an `expected_geo` reference list (S1)? This is a new table or file, so it needs your sign-off.
 7. Put the build at the repository root of `andreaking-phf/mcp`, rather than in a `resp-mcp/` subfolder?
+
+---
+
+## 6. Decisions received (2026-10-31)
+
+| # | Answer | Recorded in |
+|---|---|---|
+| 1 | Register keys under PubHealth Commons | decision 0001 |
+| 2 | Include county data; check for duplication with state data | decision 0011 (proposed: store once per Health Service Area) |
+| 3 | Test the PopHIVE connector | open question 7 (connector not available in the build session) |
+| 4 | Public notice text may go to TypeSafe; use the Jev connector in Claude | decision 0012 |
+| 5 | Blocking fixes B1 to B6 approved | decisions 0002 to 0007 |
+| 6 | Add the geography reference list, with populations covered | decision 0010 (field names to confirm) |
+| 7 | Build in a `resp-mcp/` subfolder | done |

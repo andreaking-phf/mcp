@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Local data: raw API responses and the database stay on the machine that ran ingestion
+data/raw/*
+!data/raw/.gitkeep
+data/*.duckdb
+data/*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+dist/
